@@ -19,7 +19,7 @@ allprojects {
 
 Add the following dependency in your app/build.gradle file:
 ```gradle
-compile 'com.github.ashwindmk:Android-Clearable-EditText-Library:1.0'
+compile 'com.github.ashwindmk:Android-Clearable-EditText-Library:0.1'
 ```
 
 ### Usage
