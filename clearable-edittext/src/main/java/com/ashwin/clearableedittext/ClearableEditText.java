@@ -43,7 +43,7 @@ public class ClearableEditText extends FrameLayout {
         try {
             for (int i = 0; i < count; ++i) {
                 int attr = typedArray.getIndex(i);
-                if (attr == R.styleable.ClearableEditText_hintText) {
+                if (attr == R.styleable.ClearableEditText_android_hint) {
                     mHintText = typedArray.getString(attr);
                     setHintText(mHintText);
                 } else if (attr == R.styleable.ClearableEditText_android_inputType) {

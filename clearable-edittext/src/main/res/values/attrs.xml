@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="ClearableEditText">
-        <attr name="hintText" format="string" />
+        <attr name="android:hint"/>
         <attr name="android:imeOptions"/>
         <attr name="android:inputType"/>
         <attr name="android:maxLines"/>

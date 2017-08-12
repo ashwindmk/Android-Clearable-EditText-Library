@@ -19,7 +19,7 @@ allprojects {
 
 Add the following dependency in your app/build.gradle file:
 ```gradle
-compile 'com.github.ashwindmk:Android-Clearable-EditText-Library:0.2'
+compile 'com.github.ashwindmk:Android-Clearable-EditText-Library:0.3'
 ```
 
 ### Usage
@@ -30,7 +30,7 @@ In your xml file:
     android:id="@+id/clearableedittext"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    clearedit:hintText="Full Name"
+    android:hint="Full Name"
     android:inputType="textPersonName"
     android:imeOptions="actionNext"
     android:maxLines="1"

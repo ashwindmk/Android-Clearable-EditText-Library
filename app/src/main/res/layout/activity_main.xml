@@ -21,7 +21,7 @@
             android:id="@+id/firstname_clearableedittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            clearedit:hintText="First Name"
+            android:hint="First Name"
             android:inputType="textPersonName"
             android:imeOptions="actionNext"
             android:maxLines="1" />
@@ -30,7 +30,7 @@
             android:id="@+id/lastname_clearableedittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            clearedit:hintText="Last Name"
+            android:hint="Last Name"
             android:inputType="textPersonName"
             android:imeOptions="actionDone"
             android:maxLines="1"
