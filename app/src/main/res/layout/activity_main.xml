@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:clearedit="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ashwin.clearableedittextexample.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.ashwin.clearableedittext.ClearableEditText
+            android:id="@+id/firstname_clearableedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            clearedit:hintText="First Name"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            android:maxLines="1" />
+
+        <com.ashwin.clearableedittext.ClearableEditText
+            android:id="@+id/lastname_clearableedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            clearedit:hintText="Last Name"
+            android:inputType="textPersonName"
+            android:imeOptions="actionDone"
+            android:maxLines="1"
+            clearedit:whiteClearButton="false" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Save" />
+
+        <TextView
+            android:id="@+id/firstname_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
