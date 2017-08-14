@@ -18,11 +18,11 @@
 
     <Button
         android:id="@+id/clear_button"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
         android:layout_marginRight="10dp"
         android:layout_gravity="right|bottom"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginLeft="5dp"
         android:background="@drawable/ic_clear_black_24dp" />
 
