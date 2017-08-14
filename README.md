@@ -1,5 +1,5 @@
 # Android Clearable EditText
-Android library for logging only in debug mode.
+Android library for EditText with clear button.
 
 [![Release](https://jitpack.io/v/ashwindmk/Android-Clearable-EditText-Library.svg)](https://jitpack.io/#ashwindmk/Android-Clearable-EditText-Library)
 
