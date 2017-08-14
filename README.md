@@ -1,7 +1,7 @@
 # Android Clearable EditText
 Android library for logging only in debug mode.
 
-[![Release](https://jitpack.io/v/jitpack/maven-simple.svg)](https://jitpack.io/#ashwindmk/Android-Clearable-EditText-Library)
+[![Release](https://jitpack.io/v/ashwindmk/Android-Clearable-EditText-Library.svg)](https://jitpack.io/#ashwindmk/Android-Clearable-EditText-Library)
 
 Clearable EditText library allows you to display close icon at right end of your edittext, which helps to clear the user entered text.
 
@@ -19,7 +19,7 @@ allprojects {
 
 Add the following dependency in your app/build.gradle file:
 ```gradle
-compile 'com.github.ashwindmk:Android-Clearable-EditText-Library:0.4'
+compile 'com.github.ashwindmk:Android-Clearable-EditText-Library:0.5'
 ```
 
 ### Usage
